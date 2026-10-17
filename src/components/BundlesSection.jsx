@@ -19,7 +19,7 @@ export const bundlesData = [
       'Botanical Radiance Serum (30 ml)',
       'Silk Skin Fluid Foundation (35 ml)',
       'Nectar Radiance Balm Pot (15 g)',
-      'Neceser Exclusivo de Lino Orgánico GROW'
+      'Neceser Exclusivo de Lino Orgánico AURA'
     ],
     popular: true,
     shape: 'rounded-organic-lg'

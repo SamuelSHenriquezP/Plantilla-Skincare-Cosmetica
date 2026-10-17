@@ -182,7 +182,7 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
             </div>
 
             <span className="font-sans text-xs uppercase tracking-widest text-[#8C5E41] block mb-2">
-              Tu Diagnóstico Firma GROW
+              Tu Diagnóstico Firma AURA
             </span>
             <h4 className="font-serif text-3xl text-[#5D3A24] mb-3">
               {recommendation.title}

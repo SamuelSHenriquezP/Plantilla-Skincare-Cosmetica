@@ -34,8 +34,8 @@ export const Footer = () => {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-[#8C5E41] shrink-0 mt-0.5" />
                   <div>
-                    <h5 className="font-serif text-sm font-medium text-[#5D3A24]">ATELIER JOHANÍA BALLESTAS</h5>
-                    <p className="font-sans text-xs text-[#5D3A24]/75 font-light">Calle Santo Domingo #3-45, Centro Histórico, Cartagena</p>
+                    <h5 className="font-serif text-sm font-medium text-[#5D3A24]">ATELIER BOTÁNICO AURA</h5>
+                    <p className="font-sans text-xs text-[#5D3A24]/75 font-light">Av. Botanique #12-40, Distrito de Diseño</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ export const Footer = () => {
           
           <div className="flex items-center gap-4">
             <BrandLogo variant="dark" size="small" />
-            <span>© {new Date().getFullYear()} GROW BY JOHANÍA BALLESTAS.</span>
+            <span>© {new Date().getFullYear()} AURA BOTANICAL ATELIER. TODOS LOS DERECHOS RESERVADOS.</span>
           </div>
 
           {/* Social Icons */}

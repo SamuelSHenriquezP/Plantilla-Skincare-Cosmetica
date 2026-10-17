@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 export const WhatsAppFloat = () => {
   const phone = "573000000000";
-  const defaultMessage = encodeURIComponent("¡Hola Johanía! Quisiera consultar sobre los productos de GROW y recibir asesoría personalizada.");
+  const defaultMessage = encodeURIComponent("¡Hola! Quisiera consultar sobre los productos de AURA y recibir asesoría personalizada.");
   const whatsappUrl = `https://wa.me/${phone}?text=${defaultMessage}`;
 
   return (

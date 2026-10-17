@@ -81,7 +81,7 @@ export const HeroSanctuary = () => {
         {/* Macro Portrait Background Image */}
         <img 
           src="/assets/hero_macro.png" 
-          alt="GROW Sanctuary Experience" 
+          alt="AURA Sanctuary Experience" 
           className="absolute inset-0 w-full h-full object-cover object-[center_35%] pointer-events-none scale-100 transition-transform duration-1000 ease-out"
         />
 

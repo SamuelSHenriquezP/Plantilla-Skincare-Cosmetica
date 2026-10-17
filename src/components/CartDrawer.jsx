@@ -22,8 +22,8 @@ export const CartDrawer = ({ isOpen, onClose, cartItems, onUpdateQuantity, onRem
       `• *${item.name}* ${item.selectedShade ? `(Tono: ${item.selectedShade.name})` : ''} - Cantidad: ${item.quantity} → $${(item.price * item.quantity).toFixed(2)}`
     ).join('\n');
 
-    const whatsappMessage = `✨ *NUEVO PEDIDO DE LUJO - GROW BY JOHANÍA BALLESTAS* ✨\n\n` +
-      `Hola Johanía! Me gustaría realizar la orden de los siguientes productos:\n\n` +
+    const whatsappMessage = `✨ *NUEVO PEDIDO DE LUJO — AURA BOTANICAL ATELIER* ✨\n\n` +
+      `¡Hola! Me gustaría realizar la orden de los siguientes productos:\n\n` +
       `${itemsList}\n\n` +
       `💳 *Total a pagar:* $${subtotal.toFixed(2)}\n` +
       `🚚 *Envío Expreso:* Gratis\n\n` +
@@ -111,7 +111,7 @@ export const CartDrawer = ({ isOpen, onClose, cartItems, onUpdateQuantity, onRem
                 ¡Pedido Confirmado!
               </h4>
               <p className="font-sans text-xs text-[#5D3A24]/80 font-light leading-relaxed mb-6">
-                Gracias por permitir a GROW formar parte de tu arquitectura diaria de belleza. 
+                Gracias por permitir a AURA formar parte de tu arquitectura diaria de belleza. 
                 Recibirás la confirmación y guía de rastreo en tu correo electrónico.
               </p>
               <button

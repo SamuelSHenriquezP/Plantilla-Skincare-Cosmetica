@@ -3,7 +3,7 @@ import React from 'react';
 export const BrandLogo = ({ variant = 'dark', size = 'medium', align = 'center', className = '' }) => {
   const isLight = variant === 'light';
   const textColor = isLight ? '#FFFDF9' : '#5D3A24';
-  const sparkleColor = isLight ? '#D9AE94' : '#5D3A24';
+  const sparkleColor = isLight ? '#D9AE94' : '#DFB277';
 
   const titleSize = size === 'large' 
     ? 'text-4xl md:text-5xl' 
@@ -21,36 +21,35 @@ export const BrandLogo = ({ variant = 'dark', size = 'medium', align = 'center',
 
   return (
     <div className={`inline-flex flex-col justify-center select-none ${alignmentClasses} ${className}`}>
-      {/* Main GROW Typography with Sparkle in 'O' */}
-      <div className={`flex items-center tracking-[0.25em] ${titleSize}`} style={{ color: textColor }}>
-        <span className="font-serif font-light">G</span>
-        <span className="font-serif font-light">R</span>
+      {/* Main AURA Typography with Radiant Sparkle Star */}
+      <div className={`flex items-center tracking-[0.3em] ${titleSize}`} style={{ color: textColor }}>
+        <span className="font-serif font-light">A</span>
         
-        {/* Letter 'O' with central 4-point sparkle star */}
-        <div className="relative inline-flex items-center justify-center mx-1">
-          <span className="font-serif font-light">O</span>
+        {/* Letter 'U' with central delicate radiant botanical sparkle */}
+        <div className="relative inline-flex items-center justify-center mx-0.5">
+          <span className="font-serif font-light">U</span>
           <svg 
-            className="absolute w-3 h-3 md:w-3.5 md:h-3.5 animate-pulse"
+            className="absolute w-2.5 h-2.5 md:w-3 md:h-3 animate-pulse"
             viewBox="0 0 24 24" 
             fill={sparkleColor} 
             xmlns="http://www.w3.org/2000/svg"
-            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+            style={{ top: '35%', left: '50%', transform: 'translate(-50%, -50%)' }}
           >
             <path d="M12 0L14.5 9.5L24 12L14.5 14.5L12 24L9.5 14.5L0 12L9.5 9.5L12 0Z" />
           </svg>
         </div>
-        
-        <span className="font-serif font-light">W</span>
+
+        <span className="font-serif font-light">R</span>
+        <span className="font-serif font-light">A</span>
       </div>
 
-      {/* Subtitle BY JOHANÍA BALLESTAS */}
+      {/* Subtitle BOTANICAL ATELIER */}
       <span 
         className={`font-sans uppercase mt-0.5 font-light whitespace-nowrap ${subtitleSize}`}
-        style={{ color: isLight ? 'rgba(255, 253, 249, 0.9)' : '#5D3A24' }}
+        style={{ color: isLight ? 'rgba(255, 253, 249, 0.9)' : '#8C5E41' }}
       >
-        BY JOHANÍA BALLESTAS
+        BOTANICAL ATELIER
       </span>
     </div>
   );
 };
-

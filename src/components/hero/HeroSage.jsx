@@ -26,7 +26,7 @@ export const HeroSage = () => {
       {/* Full-bleed Macro Beauty Photography Background */}
       <img 
         src="/assets/hero_macro.png" 
-        alt="GROW Luxury Skincare" 
+        alt="AURA Luxury Skincare" 
         className="absolute inset-0 w-full h-full object-cover object-[center_35%] pointer-events-none scale-100 transition-transform duration-1000 ease-out"
       />
 
@@ -41,12 +41,12 @@ export const HeroSage = () => {
         </a>
       </div>
 
-      {/* Bottom Area: Pure Monumental Editorial 'grow' Typography */}
+      {/* Bottom Area: Pure Monumental Editorial 'aura' Typography */}
       <div className="relative z-20 flex flex-col justify-end w-full">
         
         {/* Giant High-Fashion Serif Wordmark (Matching the Sage reference) */}
         <h1 className="hero-animate-sage font-serif lowercase text-[25vw] sm:text-[23vw] md:text-[21vw] lg:text-[19vw] leading-[0.72] tracking-[-0.04em] text-[#FFFDF9] select-none text-left sm:text-left drop-shadow-2xl">
-          grow
+          aura
         </h1>
 
         {/* Minimal Subtle Scroll Down Hint */}
