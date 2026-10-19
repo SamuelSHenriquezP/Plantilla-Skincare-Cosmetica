@@ -36,10 +36,10 @@ export const productsData = [
 
 export const ProductShowcase = ({ onAddToCart }) => {
   return (
-    <section id="coleccion" className="w-full py-24 sm:py-32 bg-[#F9F7F2] text-[#5D3A24] relative overflow-hidden">
+    <section id="coleccion" className="w-full py-24 sm:py-32 bg-[#F9F7F2] text-[#724B34] relative overflow-hidden">
       
       {/* Background Watermark Typography inspired by Image 2 (SAGE "new") */}
-      <div className="absolute top-1/2 left-0 -translate-y-1/2 text-[18vw] font-serif font-light text-[#5D3A24]/[0.025] select-none pointer-events-none uppercase tracking-[0.25em] whitespace-nowrap z-0">
+      <div className="absolute top-1/2 left-0 -translate-y-1/2 text-[18vw] font-serif font-light text-[#724B34]/[0.025] select-none pointer-events-none uppercase tracking-[0.25em] whitespace-nowrap z-0">
         resplandor
       </div>
 
@@ -47,7 +47,7 @@ export const ProductShowcase = ({ onAddToCart }) => {
         
         {/* 1. DARK COCOA EXPERIENCE BANNER directly matching Image 1's "DISCOVER OUR EXPERIENCES" */}
         <div 
-          className="bg-[#5D3A24] text-[#F9F7F2] p-8 sm:p-12 lg:p-14 relative overflow-hidden shadow-2xl mb-28 group"
+          className="bg-[#724B34] text-[#F9F7F2] p-8 sm:p-12 lg:p-14 relative overflow-hidden shadow-2xl mb-28 group"
           style={{ borderRadius: '45px' }}
         >
           {/* Background Soft Glow */}
@@ -77,7 +77,7 @@ export const ProductShowcase = ({ onAddToCart }) => {
 
               <a 
                 href="#rituales" 
-                className="py-3.5 px-8 rounded-full bg-[#D9AE94] text-[#5D3A24] font-sans text-xs uppercase tracking-[0.25em] font-medium hover:bg-[#F9F7F2] transition-all transform hover:-translate-y-1 inline-flex items-center gap-2 shadow-lg"
+                className="py-3.5 px-8 rounded-full bg-[#D9AE94] text-[#724B34] font-sans text-xs uppercase tracking-[0.25em] font-medium hover:bg-[#F9F7F2] transition-all transform hover:-translate-y-1 inline-flex items-center gap-2 shadow-lg"
               >
                 <span>VER TODOS LOS RITUALES</span>
                 <ArrowRight className="w-4 h-4" />
@@ -124,13 +124,13 @@ export const ProductShowcase = ({ onAddToCart }) => {
 
         {/* 2. CURATED MOMENTS ROW Header matching Image 1 */}
         <div className="mb-14 text-center max-w-xl mx-auto flex flex-col items-center">
-          <span className="font-sans text-xs uppercase tracking-[0.35em] text-[#8C5E41] font-light block mb-2">
+          <span className="font-sans text-xs uppercase tracking-[0.35em] text-[#9E6E50] font-light block mb-2">
             ✦ Curated Wellness Moments ✦
           </span>
-          <h3 className="font-serif text-3xl sm:text-4xl text-[#5D3A24] font-light tracking-wide">
+          <h3 className="font-serif text-3xl sm:text-4xl text-[#724B34] font-light tracking-wide">
             Momentos de Resplandor Curados
           </h3>
-          <span className="font-script text-2xl text-[#8C5E41] mt-1 font-normal">
+          <span className="font-script text-2xl text-[#9E6E50] mt-1 font-normal">
             ~ el arte de cuidar tu luz divina ~
           </span>
         </div>
@@ -140,7 +140,7 @@ export const ProductShowcase = ({ onAddToCart }) => {
           {productsData.map((prod) => (
             <div 
               key={prod.id}
-              className="bg-[#FFFDF9] p-6 rounded-3xl border border-[#5D3A24]/10 shadow-sm flex items-center gap-5 group hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
+              className="bg-[#FFFDF9] p-6 rounded-3xl border border-[#724B34]/10 shadow-sm flex items-center gap-5 group hover:shadow-xl transition-all duration-500 hover:-translate-y-1"
             >
               {/* Square Image Thumbnail with Soft Sunlight Shadow */}
               <div className="w-24 h-24 rounded-2xl overflow-hidden bg-[#F9F7F2] shrink-0 border border-[#D9AE94]/40 relative">
@@ -150,16 +150,16 @@ export const ProductShowcase = ({ onAddToCart }) => {
               {/* Product Specs */}
               <div className="flex-1 flex flex-col justify-between">
                 <div>
-                  <h4 className="font-serif text-lg font-medium text-[#5D3A24] leading-tight mb-1">
+                  <h4 className="font-serif text-lg font-medium text-[#724B34] leading-tight mb-1">
                     {prod.name}
                   </h4>
-                  <p className="font-sans text-[11px] text-[#5D3A24]/75 font-light line-clamp-2 leading-relaxed">
+                  <p className="font-sans text-[11px] text-[#724B34]/75 font-light line-clamp-2 leading-relaxed">
                     {prod.description}
                   </p>
                 </div>
 
                 <div className="mt-4 flex items-center justify-between">
-                  <span className="font-serif text-lg italic text-[#5D3A24] font-normal">
+                  <span className="font-serif text-lg italic text-[#724B34] font-normal">
                     {prod.priceFormatted}
                   </span>
 
@@ -173,7 +173,7 @@ export const ProductShowcase = ({ onAddToCart }) => {
                       image: prod.image,
                       selectedShade: { name: 'Firma Glow', color: '#D9AE94' }
                     })}
-                    className="w-9 h-9 rounded-full bg-[#5D3A24] text-[#F9F7F2] flex items-center justify-center hover:bg-[#8C5E41] transition-colors shadow-md transform hover:scale-110"
+                    className="w-9 h-9 rounded-full bg-[#724B34] text-[#F9F7F2] flex items-center justify-center hover:bg-[#9E6E50] transition-colors shadow-md transform hover:scale-110"
                     title="Añadir a la Bolsa"
                   >
                     <Plus className="w-4 h-4" />

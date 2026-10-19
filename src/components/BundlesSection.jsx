@@ -99,13 +99,13 @@ export const BundlesSection = ({ onAddToCart, onOpenQuiz }) => {
         
         {/* Header Centered */}
         <div className="text-center max-w-2xl mx-auto mb-20 flex flex-col items-center">
-          <span className="font-sans text-xs uppercase tracking-[0.4em] text-[#8C5E41] font-light block mb-3 text-center">
+          <span className="font-sans text-xs uppercase tracking-[0.4em] text-[#9E6E50] font-light block mb-3 text-center">
             Sets de Experiencia Exclusiva
           </span>
-          <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#5D3A24] font-light tracking-[0.2em] text-center">
+          <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#724B34] font-light tracking-[0.2em] text-center">
             Los Rituales <span className="italic">Firma</span>
           </h2>
-          <p className="font-sans text-sm text-[#5D3A24]/75 mt-4 font-light leading-relaxed tracking-wide text-center max-w-md mx-auto">
+          <p className="font-sans text-sm text-[#724B34]/75 mt-4 font-light leading-relaxed tracking-wide text-center max-w-md mx-auto">
             Curadurías de belleza concebidas para complementarse armónicamente. 
             Empacadas en cajas artesanales con sello de cera virgen.
           </p>
@@ -119,19 +119,19 @@ export const BundlesSection = ({ onAddToCart, onOpenQuiz }) => {
               className={`bundle-floating-card relative group bg-[#F9F7F2] p-8 sm:p-10 flex flex-col items-center justify-between text-center transition-all duration-700 ${bundle.shape}`}
               style={{
                 borderRadius: '60px',
-                boxShadow: '0 30px 60px -15px rgba(93, 58, 36, 0.12), inset 0 1px 2px rgba(255, 255, 255, 0.9)',
-                border: bundle.popular ? '2px solid #D9AE94' : '1px solid rgba(93, 58, 36, 0.1)'
+                boxShadow: '0 30px 60px -15px rgba(114, 75, 52, 0.12), inset 0 1px 2px rgba(255, 255, 255, 0.9)',
+                border: bundle.popular ? '2px solid #D9AE94' : '1px solid rgba(114, 75, 52, 0.1)'
               }}
             >
               {/* Top Badges Centered */}
               <div className="flex items-center justify-center gap-3 mb-6 mx-auto text-center">
-                <span className="px-4 py-1.5 rounded-pill bg-[#5D3A24] text-[#F9F7F2] font-sans text-[10px] uppercase tracking-[0.3em] text-center">
+                <span className="px-4 py-1.5 rounded-pill bg-[#724B34] text-[#F9F7F2] font-sans text-[10px] uppercase tracking-[0.3em] text-center">
                   {bundle.savings}
                 </span>
 
                 {bundle.popular && (
-                  <span className="flex items-center justify-center gap-1 font-sans text-[10px] uppercase tracking-[0.3em] text-[#5D3A24] bg-[#D9AE94]/30 px-3.5 py-1.5 rounded-pill border border-[#D9AE94]/40 text-center">
-                    <Sparkles className="w-3 h-3 text-[#5D3A24]" />
+                  <span className="flex items-center justify-center gap-1 font-sans text-[10px] uppercase tracking-[0.3em] text-[#724B34] bg-[#D9AE94]/30 px-3.5 py-1.5 rounded-pill border border-[#D9AE94]/40 text-center">
+                    <Sparkles className="w-3 h-3 text-[#724B34]" />
                     Recomendado
                   </span>
                 )}
@@ -149,19 +149,19 @@ export const BundlesSection = ({ onAddToCart, onOpenQuiz }) => {
               {/* Info Centered */}
               <div className="flex-1 flex flex-col justify-between items-center text-center w-full">
                 <div className="flex flex-col items-center text-center w-full">
-                  <h3 className="font-serif text-3xl text-[#5D3A24] mb-2 tracking-[0.18em] text-center">
+                  <h3 className="font-serif text-3xl text-[#724B34] mb-2 tracking-[0.18em] text-center">
                     {bundle.title}
                   </h3>
-                  <span className="font-sans text-xs uppercase tracking-[0.35em] text-[#8C5E41] block mb-6 font-light text-center">
+                  <span className="font-sans text-xs uppercase tracking-[0.35em] text-[#9E6E50] block mb-6 font-light text-center">
                     {bundle.subtitle}
                   </span>
 
                   {/* Included Items Checklist */}
                   <ul className="space-y-3 mb-8 max-w-xs mx-auto text-left w-full">
                     {bundle.features.map((item, idx) => (
-                      <li key={idx} className="flex items-center gap-3 font-sans text-xs text-[#5D3A24]/80 font-light tracking-wide">
+                      <li key={idx} className="flex items-center gap-3 font-sans text-xs text-[#724B34]/80 font-light tracking-wide">
                         <div className="w-4 h-4 rounded-full bg-[#D9AE94]/30 flex items-center justify-center shrink-0">
-                          <Check className="w-2.5 h-2.5 text-[#5D3A24]" />
+                          <Check className="w-2.5 h-2.5 text-[#724B34]" />
                         </div>
                         <span>{item}</span>
                       </li>
@@ -170,14 +170,14 @@ export const BundlesSection = ({ onAddToCart, onOpenQuiz }) => {
                 </div>
 
                 {/* Pricing & CTA Centered */}
-                <div className="pt-6 border-t border-[#5D3A24]/10 flex flex-col items-center justify-center gap-4 text-center w-full">
+                <div className="pt-6 border-t border-[#724B34]/10 flex flex-col items-center justify-center gap-4 text-center w-full">
                   <div className="flex flex-col items-center justify-center text-center gap-1">
-                    <span className="font-sans text-[10px] uppercase tracking-[0.35em] text-[#5D3A24]/60 block text-center">Inversión:</span>
+                    <span className="font-sans text-[10px] uppercase tracking-[0.35em] text-[#724B34]/60 block text-center">Inversión:</span>
                     <div className="flex items-baseline justify-center gap-3">
-                      <span className="font-serif text-3xl italic text-[#5D3A24] font-normal tracking-[0.12em]">
+                      <span className="font-serif text-3xl italic text-[#724B34] font-normal tracking-[0.12em]">
                         {bundle.priceFormatted}
                       </span>
-                      <span className="font-sans text-xs line-through text-[#8C5E41]/60 tracking-wider">
+                      <span className="font-sans text-xs line-through text-[#9E6E50]/60 tracking-wider">
                         {bundle.originalPriceFormatted}
                       </span>
                     </div>
@@ -204,10 +204,10 @@ export const BundlesSection = ({ onAddToCart, onOpenQuiz }) => {
         </div>
 
         {/* Custom Bundle CTA Banner Centered */}
-        <div className="mt-16 text-center bg-[#5D3A24]/5 p-8 sm:p-10 rounded-organic-md border border-[#5D3A24]/10 max-w-2xl mx-auto flex flex-col items-center justify-center gap-4">
+        <div className="mt-16 text-center bg-[#724B34]/5 p-8 sm:p-10 rounded-organic-md border border-[#724B34]/10 max-w-2xl mx-auto flex flex-col items-center justify-center gap-4">
           <div className="text-center">
-            <span className="font-serif italic text-2xl text-[#5D3A24] block mb-1">¿Prefieres un ritual a la medida?</span>
-            <p className="font-sans text-xs text-[#5D3A24]/75 font-light tracking-wide text-center">Realiza nuestro test personalizado para formular tu set ideal.</p>
+            <span className="font-serif italic text-2xl text-[#724B34] block mb-1">¿Prefieres un ritual a la medida?</span>
+            <p className="font-sans text-xs text-[#724B34]/75 font-light tracking-wide text-center">Realiza nuestro test personalizado para formular tu set ideal.</p>
           </div>
           <button 
             onClick={onOpenQuiz}

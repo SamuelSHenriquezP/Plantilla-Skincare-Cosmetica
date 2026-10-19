@@ -11,7 +11,7 @@ export const WhatsAppFloat = () => {
       href={whatsappUrl}
       target="_blank"
       rel="noreferrer"
-      className="fixed bottom-6 right-6 z-40 p-4 bg-[#5D3A24] text-[#F9F7F2] rounded-full shadow-2xl hover:bg-[#D9AE94] hover:text-[#5D3A24] transition-all duration-500 transform hover:scale-110 flex items-center justify-center border border-[#D9AE94]/40 group"
+      className="fixed bottom-6 right-6 z-40 p-4 bg-[#724B34] text-[#F9F7F2] rounded-full shadow-2xl hover:bg-[#D9AE94] hover:text-[#724B34] transition-all duration-500 transform hover:scale-110 flex items-center justify-center border border-[#D9AE94]/40 group"
       aria-label="Contactar por WhatsApp"
       title="Asesoría Personalizada por WhatsApp"
     >

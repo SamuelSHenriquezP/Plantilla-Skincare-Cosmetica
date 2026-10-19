@@ -55,7 +55,7 @@ export function App() {
   const cartCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden bg-[#F9F7F2] text-[#5D3A24] font-sans selection:bg-[#D9AE94] selection:text-[#5D3A24]">
+    <div className="relative min-h-screen w-full overflow-x-hidden bg-[#F9F7F2] text-[#724B34] font-sans selection:bg-[#D9AE94] selection:text-[#724B34]">
       
       {/* Navigation Header */}
       <Navbar 

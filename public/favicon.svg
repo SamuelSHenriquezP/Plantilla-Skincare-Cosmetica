@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="16" fill="#5D3A24" />
+  <rect width="64" height="64" rx="16" fill="#724B34" />
   <!-- Radiant 8-point botanical star in luxury gold -->
   <path d="M 32 10 L 36.5 25.5 L 52 30 L 36.5 34.5 L 32 50 L 27.5 34.5 L 12 30 L 27.5 25.5 Z" fill="#DFB277" />
   <path d="M 32 18 L 34.5 27.5 L 44 30 L 34.5 32.5 L 32 42 L 29.5 32.5 L 20 30 L 29.5 27.5 Z" fill="#D9AE94" transform="rotate(45 32 30)" opacity="0.8" />

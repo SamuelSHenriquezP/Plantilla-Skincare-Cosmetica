@@ -38,23 +38,23 @@ export const HeroSanctuary = () => {
         {/* Center: Headline & Refined CTA */}
         <div className="flex flex-col items-start my-auto py-4">
           
-          <span className="hero-animate-sanctuary font-script text-2xl sm:text-3xl text-[#8C5E41] font-normal mb-2">
+          <span className="hero-animate-sanctuary font-script text-2xl sm:text-3xl text-[#9E6E50] font-normal mb-2">
             ~ Belleza Consciente & Pura ~
           </span>
 
-          <h1 className="hero-animate-sanctuary font-serif text-3xl sm:text-4xl xl:text-5xl leading-[1.08] text-[#5D3A24] font-light tracking-[0.03em] uppercase mb-4">
+          <h1 className="hero-animate-sanctuary font-serif text-3xl sm:text-4xl xl:text-5xl leading-[1.08] text-[#724B34] font-light tracking-[0.03em] uppercase mb-4">
             UN SANTUARIO <br />
-            <span className="italic font-serif text-[#8C5E41]">PARA TU PIEL.</span>
+            <span className="italic font-serif text-[#9E6E50]">PARA TU PIEL.</span>
           </h1>
 
-          <p className="hero-animate-sanctuary font-sans font-light text-xs sm:text-sm text-[#5D3A24]/75 max-w-sm mb-6 leading-relaxed">
+          <p className="hero-animate-sanctuary font-sans font-light text-xs sm:text-sm text-[#724B34]/75 max-w-sm mb-6 leading-relaxed">
             Fórmulas botánicas puras prensadas en frío para restaurar, nutrir y exaltar tu luz natural cotidiana.
           </p>
 
           <div className="hero-animate-sanctuary flex items-center gap-3">
             <a 
               href="#coleccion" 
-              className="px-7 py-3.5 rounded-full bg-[#5D3A24] text-[#FFFDF9] font-sans text-xs uppercase tracking-[0.25em] font-medium hover:bg-[#8C5E41] transition-all shadow-md flex items-center gap-2 group hover:scale-105"
+              className="px-7 py-3.5 rounded-full bg-[#724B34] text-[#FFFDF9] font-sans text-xs uppercase tracking-[0.25em] font-medium hover:bg-[#9E6E50] transition-all shadow-md flex items-center gap-2 group hover:scale-105"
             >
               <span>Explorar Colección</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
@@ -64,9 +64,9 @@ export const HeroSanctuary = () => {
         </div>
 
         {/* Bottom Tagline */}
-        <div className="hero-animate-sanctuary flex items-center gap-3 text-[#8C5E41]">
+        <div className="hero-animate-sanctuary flex items-center gap-3 text-[#9E6E50]">
           <Sparkles className="w-3.5 h-3.5 text-[#D9AE94]" />
-          <span className="font-sans text-[10px] uppercase tracking-[0.25em] font-light text-[#5D3A24]/60">
+          <span className="font-sans text-[10px] uppercase tracking-[0.25em] font-light text-[#724B34]/60">
             Botánica Pura • 100% Orgánico
           </span>
         </div>
@@ -101,7 +101,7 @@ export const HeroSanctuary = () => {
         <div className="hero-animate-sanctuary relative z-20 self-center lg:self-end">
           <a 
             href="#filosofia" 
-            className="flex items-center gap-1.5 text-[9px] uppercase tracking-[0.3em] text-[#FFFDF9]/80 bg-[#382012]/40 backdrop-blur-md px-4 py-1.5 rounded-full hover:bg-[#382012]/60 transition-colors"
+            className="flex items-center gap-1.5 text-[9px] uppercase tracking-[0.3em] text-[#FFFDF9]/80 bg-[#4A2C1A]/40 backdrop-blur-md px-4 py-1.5 rounded-full hover:bg-[#4A2C1A]/60 transition-colors"
             aria-label="Bajar a la sección de filosofía"
           >
             <span>Scroll</span>

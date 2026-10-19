@@ -77,7 +77,7 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
           price: 46.00,
           priceFormatted: '$46.00',
           image: '/assets/lipstick.png',
-          selectedShade: { name: 'Cocoa Nude', color: '#5D3A24' }
+          selectedShade: { name: 'Cocoa Nude', color: '#724B34' }
         },
         description: 'Tu perfil es sofisticado y práctico. Una pincelada de labial orgánico enriquecido con manteca de karité otorgará ese sello distintivo sin esfuerzo.'
       };
@@ -105,7 +105,7 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-[#5D3A24]/60 backdrop-blur-md animate-fadeIn">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-[#724B34]/60 backdrop-blur-md animate-fadeIn">
       <div 
         className="bg-[#F9F7F2] w-full max-w-2xl p-8 sm:p-12 relative overflow-hidden shadow-2xl border border-[#D9AE94]/40"
         style={{ borderRadius: '60px' }}
@@ -113,7 +113,7 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-6 right-6 p-3 rounded-full text-[#5D3A24] hover:bg-[#5D3A24]/10 transition-colors"
+          className="absolute top-6 right-6 p-3 rounded-full text-[#724B34] hover:bg-[#724B34]/10 transition-colors"
           aria-label="Cerrar test"
         >
           <X className="w-5 h-5" />
@@ -122,19 +122,19 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
         {/* Header */}
         <div className="text-center mb-8">
           <BrandLogo size="small" className="mb-2" />
-          <h3 className="font-serif text-3xl text-[#5D3A24]">
+          <h3 className="font-serif text-3xl text-[#724B34]">
             Encuentra Tu <span className="italic">Ritual Glow</span>
           </h3>
-          <span className="font-sans text-[10px] uppercase tracking-widest text-[#8C5E41] block mt-1">
+          <span className="font-sans text-[10px] uppercase tracking-widest text-[#9E6E50] block mt-1">
             Diagnóstico Estético Personalizado
           </span>
         </div>
 
         {/* Progress Bar */}
         {step <= 3 && (
-          <div className="w-full h-1 bg-[#5D3A24]/10 rounded-full mb-8 overflow-hidden">
+          <div className="w-full h-1 bg-[#724B34]/10 rounded-full mb-8 overflow-hidden">
             <div 
-              className="h-full bg-[#5D3A24] transition-all duration-500"
+              className="h-full bg-[#724B34] transition-all duration-500"
               style={{ width: `${(step / 3) * 100}%` }}
             />
           </div>
@@ -144,11 +144,11 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
         {step <= 3 && (
           <div>
             <div className="flex items-center justify-between mb-4">
-              <span className="font-sans text-xs text-[#8C5E41] font-light">Paso 0{step} de 03</span>
-              <span className="font-script text-2xl text-[#5D3A24]">Pregunta {step}</span>
+              <span className="font-sans text-xs text-[#9E6E50] font-light">Paso 0{step} de 03</span>
+              <span className="font-script text-2xl text-[#724B34]">Pregunta {step}</span>
             </div>
 
-            <h4 className="font-serif text-2xl text-[#5D3A24] mb-6">
+            <h4 className="font-serif text-2xl text-[#724B34] mb-6">
               {questions[step - 1].title}
             </h4>
 
@@ -157,13 +157,13 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
                 <button
                   key={idx}
                   onClick={() => handleSelectOption(questions[step - 1].key, opt.label)}
-                  className="w-full text-left p-5 rounded-organic-sm bg-[#FFFDF9] border border-[#5D3A24]/10 hover:border-[#D9AE94] hover:bg-[#D9AE94]/10 transition-all duration-300 group flex items-start justify-between"
+                  className="w-full text-left p-5 rounded-organic-sm bg-[#FFFDF9] border border-[#724B34]/10 hover:border-[#D9AE94] hover:bg-[#D9AE94]/10 transition-all duration-300 group flex items-start justify-between"
                 >
                   <div>
-                    <span className="block font-serif text-lg text-[#5D3A24] group-hover:text-[#5D3A24] font-normal">
+                    <span className="block font-serif text-lg text-[#724B34] group-hover:text-[#724B34] font-normal">
                       {opt.label}
                     </span>
-                    <span className="font-sans text-xs text-[#5D3A24]/70 font-light mt-1 block">
+                    <span className="font-sans text-xs text-[#724B34]/70 font-light mt-1 block">
                       {opt.desc}
                     </span>
                   </div>
@@ -178,31 +178,31 @@ export const GlowQuizModal = ({ isOpen, onClose, onAddToCart }) => {
         {step === 4 && (
           <div className="text-center animate-fadeIn">
             <div className="w-12 h-12 rounded-full bg-[#D9AE94]/30 flex items-center justify-center mx-auto mb-4">
-              <Sparkles className="w-6 h-6 text-[#5D3A24]" />
+              <Sparkles className="w-6 h-6 text-[#724B34]" />
             </div>
 
-            <span className="font-sans text-xs uppercase tracking-widest text-[#8C5E41] block mb-2">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#9E6E50] block mb-2">
               Tu Diagnóstico Firma AURA
             </span>
-            <h4 className="font-serif text-3xl text-[#5D3A24] mb-3">
+            <h4 className="font-serif text-3xl text-[#724B34] mb-3">
               {recommendation.title}
             </h4>
-            <p className="font-sans text-sm text-[#5D3A24]/80 font-light leading-relaxed mb-6 max-w-lg mx-auto">
+            <p className="font-sans text-sm text-[#724B34]/80 font-light leading-relaxed mb-6 max-w-lg mx-auto">
               {recommendation.description}
             </p>
 
             {/* Recommended Product Box */}
-            <div className="bg-[#FFFDF9] p-6 rounded-organic-md border border-[#5D3A24]/10 flex items-center gap-6 mb-8 text-left">
+            <div className="bg-[#FFFDF9] p-6 rounded-organic-md border border-[#724B34]/10 flex items-center gap-6 mb-8 text-left">
               <img 
                 src={recommendation.product.image} 
                 alt={recommendation.product.name}
                 className="w-24 h-24 object-cover rounded-organic-sm shrink-0"
               />
               <div className="flex-1">
-                <span className="font-serif text-2xl text-[#5D3A24] block">
+                <span className="font-serif text-2xl text-[#724B34] block">
                   {recommendation.product.name}
                 </span>
-                <span className="font-serif italic text-xl text-[#5D3A24] block mt-1">
+                <span className="font-serif italic text-xl text-[#724B34] block mt-1">
                   {recommendation.product.priceFormatted}
                 </span>
               </div>

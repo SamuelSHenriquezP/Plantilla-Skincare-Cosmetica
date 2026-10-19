@@ -2,7 +2,7 @@ import React from 'react';
 
 export const BrandLogo = ({ variant = 'dark', size = 'medium', align = 'center', className = '' }) => {
   const isLight = variant === 'light';
-  const textColor = isLight ? '#FFFDF9' : '#5D3A24';
+  const textColor = isLight ? '#FFFDF9' : '#724B34';
   const sparkleColor = isLight ? '#D9AE94' : '#DFB277';
 
   const titleSize = size === 'large' 
@@ -46,7 +46,7 @@ export const BrandLogo = ({ variant = 'dark', size = 'medium', align = 'center',
       {/* Subtitle BOTANICAL ATELIER */}
       <span 
         className={`font-sans uppercase mt-0.5 font-light whitespace-nowrap ${subtitleSize}`}
-        style={{ color: isLight ? 'rgba(255, 253, 249, 0.9)' : '#8C5E41' }}
+        style={{ color: isLight ? 'rgba(255, 253, 249, 0.9)' : '#9E6E50' }}
       >
         BOTANICAL ATELIER
       </span>
