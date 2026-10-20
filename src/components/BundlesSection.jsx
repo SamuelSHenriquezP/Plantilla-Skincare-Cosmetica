@@ -36,14 +36,14 @@ export const bundlesData = [
     features: [
       'Velvet Lip Kiss - Tono a Elección',
       'Nectar Radiance Balm Pot',
-      'Brocha Arquitectónica para Pómulos'
+      'Brocha de Precisión para Pómulos'
     ],
     popular: false,
     shape: 'rounded-organic-lg'
   },
   {
     id: 'bundle-architect',
-    title: 'The Daily Architect Ritual',
+    title: 'The Daily Radiance Set',
     subtitle: 'La Base de la Belleza Orgánica',
     price: 210.00,
     priceFormatted: '$210.00',
@@ -103,7 +103,7 @@ export const BundlesSection = ({ onAddToCart, onOpenQuiz }) => {
             Sets de Experiencia Exclusiva
           </span>
           <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#724B34] font-light tracking-[0.2em] text-center">
-            Los Rituales <span className="italic">Firma</span>
+            Colecciones <span className="italic">Exclusivas</span>
           </h2>
           <p className="font-sans text-sm text-[#724B34]/75 mt-4 font-light leading-relaxed tracking-wide text-center max-w-md mx-auto">
             Curadurías de belleza concebidas para complementarse armónicamente. 

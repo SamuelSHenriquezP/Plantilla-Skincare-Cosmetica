@@ -52,8 +52,8 @@ export const SocialProofSection = () => {
                 NUESTRA COLECCIÓN <br />
                 <span className="italic font-serif text-[#D9AE94]">ARTESANAL</span>
               </h2>
-              <span className="font-script text-2xl text-[#D9AE94] block mb-4 font-normal">
-                ~ formulada con calma en Colombia ~
+              <span className="font-sans text-xs uppercase tracking-[0.2em] text-[#D9AE94] block mb-4 font-medium">
+                Formulada artesanalmente en Colombia
               </span>
               <p className="font-sans text-xs sm:text-sm text-[#F9F7F2]/80 font-light leading-relaxed mb-8">
                 Fórmulas botánicas prensadas en frío y aceites esenciales purificados a mano por maestras artesanas en Cartagena.

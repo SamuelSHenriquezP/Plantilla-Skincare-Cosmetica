@@ -9,13 +9,13 @@ export const PhilosophySection = () => {
         {/* Subtitle Accent */}
         <div className="text-center mb-16 flex flex-col items-center">
           <span className="font-sans text-xs uppercase tracking-[0.35em] text-[#9E6E50] font-light block mb-2">
-            ✦ Arquitectura Botánica ✦
+            ✦ Fórmulas Botánicas Puras ✦
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl text-[#724B34] font-light tracking-wide">
-            Los 4 Pilares de la <span className="italic font-serif text-[#9E6E50]">Belleza Pura</span>
+            Los 4 Pilares de la <span className="italic font-serif text-[#9E6E50]">Belleza Natural</span>
           </h2>
-          <span className="font-script text-2xl text-[#9E6E50] mt-1 font-normal">
-            ~ delicadeza, nutrición & resplandor ~
+          <span className="font-sans text-sm text-[#9E6E50] mt-2 font-light tracking-wider">
+            Nutrición, pureza y resplandor natural
           </span>
         </div>
 
@@ -41,7 +41,7 @@ export const PhilosophySection = () => {
               <Feather className="w-6 h-6 animate-float-tender" />
             </div>
             <h3 className="font-serif text-xl font-medium text-[#724B34] mb-2 tracking-wide">
-              Arquitectura Facial
+              Cuidado & Firmeza Facial
             </h3>
             <p className="font-sans text-xs text-[#724B34]/75 font-light leading-relaxed">
               Texturas sedosas que esculpen y elevan el contorno natural sin aportar peso ni residuos.
@@ -57,7 +57,7 @@ export const PhilosophySection = () => {
               Bálsamos Velvet
             </h3>
             <p className="font-sans text-xs text-[#724B34]/75 font-light leading-relaxed">
-              Néctares artesanos con manteca de karité pura para unos labios y pómulos jugosos y Coquetos.
+              Néctares artesanos con manteca de karité pura para unos labios y pómulos hidratados y luminosos.
             </p>
           </div>
 

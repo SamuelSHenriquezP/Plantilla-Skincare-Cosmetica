@@ -33,16 +33,13 @@ export const HeroSanctuary = () => {
           <a href="#" className="flex items-center group transition-transform duration-300 hover:scale-105">
             <BrandLogo variant="dark" size="medium" align="left" />
           </a>
-          <span className="font-sans text-[9px] uppercase tracking-[0.25em] text-[#724B34]/60 font-light">
-            Desarrollado por Inventus Tech Studio
-          </span>
         </div>
 
         {/* Center: Headline & Refined CTA */}
         <div className="flex flex-col items-start my-auto py-4">
           
-          <span className="hero-animate-sanctuary font-script text-2xl sm:text-3xl text-[#9E6E50] font-normal mb-2">
-            ~ Belleza Consciente & Pura ~
+          <span className="hero-animate-sanctuary font-sans text-xs tracking-[0.25em] uppercase text-[#9E6E50] font-medium mb-3">
+            Belleza Consciente & Pura
           </span>
 
           <h1 className="hero-animate-sanctuary font-serif text-3xl sm:text-4xl xl:text-5xl leading-[1.08] text-[#724B34] font-light tracking-[0.03em] uppercase mb-4">
