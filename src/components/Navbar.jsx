@@ -53,9 +53,14 @@ export const Navbar = ({ cartCount, onOpenCart, onOpenQuiz }) => {
         <div className="w-14 lg:hidden pointer-events-none" aria-hidden="true" />
 
         {/* Centered Brand Logo */}
-        <a href="#" className="flex-shrink-0 mx-auto lg:mx-0">
-          <BrandLogo size="medium" />
-        </a>
+        <div className="flex flex-col items-center flex-shrink-0 mx-auto lg:mx-0">
+          <a href="#">
+            <BrandLogo size="medium" />
+          </a>
+          <span className="hidden sm:inline-block text-[8px] font-sans tracking-[0.2em] uppercase text-[#724B34]/60 font-light -mt-0.5">
+            Desarrollado por Inventus Tech Studio
+          </span>
+        </div>
 
         {/* Right Navigation Links & Actions */}
         <div className="hidden lg:flex items-center gap-6">

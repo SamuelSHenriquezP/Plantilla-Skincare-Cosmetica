@@ -33,6 +33,9 @@ export const HeroSanctuary = () => {
           <a href="#" className="flex items-center group transition-transform duration-300 hover:scale-105">
             <BrandLogo variant="dark" size="medium" align="left" />
           </a>
+          <span className="font-sans text-[9px] uppercase tracking-[0.25em] text-[#724B34]/60 font-light">
+            Desarrollado por Inventus Tech Studio
+          </span>
         </div>
 
         {/* Center: Headline & Refined CTA */}

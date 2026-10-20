@@ -39,6 +39,9 @@ export const HeroSage = () => {
         <a href="#" className="flex items-center group transition-transform duration-300 hover:scale-105">
           <BrandLogo variant="light" size="medium" align="left" />
         </a>
+        <span className="font-sans text-[9px] uppercase tracking-[0.25em] text-[#FFFDF9]/70 font-light">
+          Desarrollado por Inventus Tech Studio
+        </span>
       </div>
 
       {/* Bottom Area: Pure Monumental Editorial 'aura' Typography */}

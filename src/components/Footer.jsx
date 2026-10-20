@@ -82,9 +82,14 @@ export const Footer = () => {
         {/* Bottom Bar: Brand Logo, Social Icons & Copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-6 border-t border-[#724B34]/10 text-xs font-sans text-[#724B34]/70 font-light">
           
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-4">
             <BrandLogo variant="dark" size="small" />
-            <span>© {new Date().getFullYear()} AURA BOTANICAL ATELIER. TODOS LOS DERECHOS RESERVADOS.</span>
+            <div className="flex flex-col items-center sm:items-start gap-1">
+              <span>© {new Date().getFullYear()} AURA BOTANICAL ATELIER. TODOS LOS DERECHOS RESERVADOS.</span>
+              <span className="text-[11px] text-[#9E6E50] tracking-wider uppercase font-medium">
+                Desarrollado por Inventus Tech Studio
+              </span>
+            </div>
           </div>
 
           {/* Social Icons */}
